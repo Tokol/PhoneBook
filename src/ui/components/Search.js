@@ -6,14 +6,6 @@ import UserListComponent from './UserListComponent';
 function Search(props) {
   var userDatas = useSelector(state => state.phoneReducer.UserData);
 
-  //   data = data.filter(function(item){
-  //     return item.state == 'New York';
-  //  }).map(function({id, name, city}){
-  //      return {id, name, city};
-  //  });
-
-
-
   var searchResult = userDatas.filter(function(item) {
     if (props.paraCountry != '' && props.paraBrand != '') {
       return item.country == props.paraCountry && item.brand == props.paraBrand;
