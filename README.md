@@ -8,4 +8,6 @@ this app simply save, delete and search the users with name, email, country and 
 #steps to use it
 1) clone it
 2) go to directory of project
-3) enter command "npm install" done!!
+3) enter command "npm install"
+4) i) to run on ios device hit command "react-native run-ios" 
+   ii) to run on android device hit command "react-native run-android" 
